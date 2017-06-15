@@ -1,0 +1,32 @@
+
+
+{% extends "base_template.html" %}
+
+
+{% block title %}Just another Data Analytics playground {% endblock %}
+
+{% block head %}
+    {{ super() }}
+{% endblock %}
+
+
+
+
+
+{% block page_content %}
+
+
+    <div class="container">
+        <div class="starter-template">
+
+               <h1>{{ greetings | safe }} </h1>
+
+                {{ script | safe }}
+                {{ div | safe }}
+
+        </div>
+    </div>
+
+
+{% endblock page_content %}
+
